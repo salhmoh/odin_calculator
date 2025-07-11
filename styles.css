@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+nav {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 50px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#desplay{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 30px;
+
+}
+button {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: hsl(0, 0%, 40%);
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: medium;
+    font-weight: bold;
+
+}
